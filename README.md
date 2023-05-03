@@ -2,18 +2,6 @@
 
 This is a simple URL shortening application built with Flask, a lightweight web application framework in Python. The application provides functionality similar to services like bit.ly or TinyURL, allowing users to input a long URL and receive a shortened version that redirects to the original URL.
 
-## Project Structure
-
-The project has a straightforward structure:
-
-path
-│ main.py
-│ urls.json
-│
-└─templates
-index.html
-
-
 ## File Descriptions
 
 - `main.py` is the primary script which runs the Flask application, contains the routes and logic.
@@ -33,6 +21,8 @@ To run the application, execute the following command in the terminal:
 ```bash
 python main.py
 Open your web browser and navigate to http://localhost:5000 to use the application.
+```
+
 
 ## Future Work
 Possible future enhancements could include:
