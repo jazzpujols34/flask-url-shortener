@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Set the character encoding for the document -->
+        <meta charset="UTF-8">
+        <!-- Set the title of the document -->
+        <title>URL Shortener</title>
+    </head>
+    <body>
+        <!-- Display a heading -->
+        <h1> URL Shortener</h1>
+        <!-- Create a form for users to submit long URLs -->
+        <form method="POST" action="{{url_for('index') }}">
+            <!-- Create an input field for the long URL -->
+            <input type="url" name="long_url" placeholder=Enter the long URL" required>
+            <!-- Create a submit button for the form -->
+            <button type="submit">Shorten</button>
+        </form>
+    </body>
+</html>
